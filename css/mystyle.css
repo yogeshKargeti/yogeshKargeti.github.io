@@ -1,3 +1,6 @@
+body {
+    background: #dcdbdb;
+}
 .header {
     padding: 50px 0;
     background: #f5f5f5;
@@ -5,15 +8,16 @@
     padding-top: 30px;
 }
 .prof-img {
+    margin-top: 30px;
     height: 210px;
     width: 210px;
     margin-right: 30px;
     border-radius: 120px;
-    margin-left: 20px;
+    margin-left: 120px;
     float: left;
 }
 .Intro {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   margin-top: 30px;
 }
 
@@ -32,19 +36,13 @@
   margin-top: 0;
   margin-bottom: 15px;
 }
-.full-desc {
-    font-family: "Bookman Old Style";
-    font-size: 20px;
-}
-ul li {
+.social_links li {
     display: inline-block;
     list-style: none;
-}
-li {
-    padding-right: 10px;
+    padding-left: 10px;
 }
 .fa {
-  padding:  17px;
+  padding:  20px;
   border-radius: 40px;
   width: 15px;
   text-align: center;
@@ -65,4 +63,213 @@ li {
 .fa-instagram {
   background: #F20AB3;
   color: white;
+}
+.about {
+    margin-left: 100px;;
+    margin-top: 60px;
+    background: white;
+    display: inline-block;
+    width: 700px;
+    height: 270px;
+    border-style: none;
+}
+.about_heading {
+    color: black;
+    font-family: 'acme';
+    padding-left: 30px;
+    font-size: 40px;
+}
+.about_content {
+    color: black;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-family: 'century schoolbook';
+    font-size: 20px;
+}
+.address {
+    margin-top: 80px;
+    margin-right: 120px;
+    background: white;
+    display: inline-block;
+    float: right;
+    width: 310px;
+    height: 200px;
+    border-style: none;
+ }
+.address_heading {
+    color: black;
+    font-family: 'acme';
+    padding-left: 20px;
+    font-size: 30px;
+}
+.fa-map-marker {
+    color:gray;
+    padding-top: 0;
+    
+}
+.address_content {
+    font-family: 'lora';
+    font-size: 17px;
+}
+.fa-envelope {
+    color:gray;
+    padding-top: 0;
+    
+}
+.fa-link {
+    color:gray;
+    padding-top: 0;
+}
+.web_link:hover {
+    color: #E6260C;
+}
+.skills {
+    margin-top: 60px;
+    margin-left: 100px;
+    background: white;
+    width: 1120px;
+    height: 260px;
+    border-style: none;
+}
+.skills_heading {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'acme';
+    font-size: 50px;
+}
+.language_logo li {
+    display: inline-block;
+    list-style: none;
+}
+.c_logo {
+    padding-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.cplus_logo {
+    padding-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.python_logo {
+    padding-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+.java_logo {
+    padding-left: 10px;
+    width: 140px;
+    height: 100px;
+}
+.sql_logo {
+    padding-left: 0px;
+    width: 120px;
+    height: 90px;
+}
+.html_5 {
+    padding-left: 90px;
+    width: 100px;
+    height: 100px;
+}
+.css_3 {
+    padding-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.education {
+    margin-top: 60px;
+    margin-left: 100px;
+    background: white;
+    width: 700px;
+    border-style: none;
+    display: inline-block;
+
+}
+.education_heading {
+    padding-left: 70px;
+    font-family: 'acme';
+    padding-top: 20px;
+    font-size: 40px;
+}
+.education_content {
+    font-size: 20px;
+}
+.fa-graduation-cap {
+    color: gray;
+    padding-left: 40px;
+}
+.course_heading {
+    font-family: 'bitter';
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.course {
+    margin-top: 0px;
+    font-family: 'lora';
+    font-size: 18px;
+    padding-left: 85px;
+}
+.c1 {
+    padding-left: 220px;
+}
+.c2 {
+    padding-left: 48px;
+}
+.c3 {
+    padding-left: 194px;
+}
+.extra_content {
+    display: inline-block;
+    float:right;
+}
+.hobbies {
+    margin-top: 60px;
+    margin-right: 120px;
+    background: white;
+    width: 300px;
+    border-style: none;
+}
+.hobbies_heading {
+    font-family: 'acme';
+    padding-left: 40px;
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+.hobbies_content {
+    font-size: 25px;
+    padding-left: 10px;
+}
+.fa-gamepad {
+    color: gray;
+}
+.fa-music {
+    color: gray;
+}
+.fa-film {
+    color: gray;
+}
+.c4 {
+    padding-left: 10px;
+}
+.extra_skills {
+    margin-top: 60px;
+    margin-right: 120px;
+    background: white;
+    width: 300px;
+    border-style: none;
+}
+.extra_skills_heading {
+    font-family: 'acme';
+    padding-left: 70px;
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+.adbps {
+    width: 60px;
+    height: 60px;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
